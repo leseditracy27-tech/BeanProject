@@ -12,6 +12,10 @@ public class AnimalsCage {
     @Qualifier("dog")
     private Animal animal;
 
+    public AnimalsCage(Animal animal) {
+        this.animal = animal;
+    }
+
     public Animal getAnimal() {
         return animal;
     }
